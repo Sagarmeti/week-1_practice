@@ -1,9 +1,10 @@
 begin
+number sum=0,num=1
 
-number sum=0,i
-for(i=1;i<=10;i++)
+if(num<=10)
 {
 sum=sum+num
+num=num+1
 }
 print(sum)
 

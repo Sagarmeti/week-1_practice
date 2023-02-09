@@ -1,23 +1,24 @@
-begin
-
-number start, stop
-print("enter start and stop values")
+Begin
+Number start,stop
+print("Enter start and stop values")
 input start
 input stop
 
 if(start<stop)
 {
-for(start;start<=stop;start++)
+while(start<=stop)
 {
 print(start)
-}}
+start=start+1
+}
+}
 
 else
 {
-for(start;start>=stop;start--)
+while(start>=stop)
 {
 print(start)
+start=start-1
 }
 }
-
-end
+End

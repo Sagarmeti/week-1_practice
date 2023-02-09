@@ -1,0 +1,25 @@
+begin
+
+number num, a=1, sum=0
+print("enter a number to check perfecct number")
+input num
+
+while(a<num/2)
+{
+if(num%i==0)
+{
+sum=sum+a
+}
+a=a+1
+}
+
+if(sum==num)
+{
+print("Entered number is perfect number",num)
+}
+else
+{
+print("Entered number is not a perfect number",num)
+}
+
+end
