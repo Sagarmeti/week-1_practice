@@ -1,0 +1,23 @@
+begin
+number num,esum=0,osum=0,rem=0
+print("Enter number to find sum of even digits and sum odd digits")
+input num;
+ 
+while(num!=0) 
+{
+rem=num%10;       
+if(rem%2==0) 
+{ 
+esum=esum+rem       
+}
+else
+{
+osum=osum+rem
+}
+num=num/10 
+}         
+
+print("sum of even digits : ",esum)
+print("number of odd digits : ",osum)
+
+end
